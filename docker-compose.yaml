@@ -11,3 +11,4 @@ services:
       NAME: "rabbitmq"
     volumes:
       - ./definitions.json:/etc/rabbitmq/definitions.json
+      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
